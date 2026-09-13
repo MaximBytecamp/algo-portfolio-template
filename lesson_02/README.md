@@ -37,20 +37,22 @@ Python: ответы читает `pytest`, поэтому они лежат с�
 
 ## Порядок сдачи
 
+Автопроверку запускайте из папки задания:
+
 ```bash
-git switch -c hw-02
-cd lesson_02
-pytest test_lesson_03.py -q      # сейчас 26 failed — доводите до 26 passed
-git add lesson_02
-git commit -m "hw-02: разметка сложности, ограничения, приёмка"
-git push -u origin hw-02
+pytest lesson_02/test_lesson_03.py -q
 ```
 
-Дальше на GitHub открываете Pull Request в свою `main`. В описании коротко: какие два
-фрагмента оказались спорными и почему вы остановились на своём ответе.
+Сейчас она показывает 26 failed, ваша цель — 26 passed.
 
-То же самое мышкой в VS Code: [коротко](../docs/git/README.md) ·
-[подробно](../docs/git/FULL.md).
+Готовую работу отправляете в ветке `hw-02` и открываете Pull Request в свою
+`main`. В описании коротко: какие два фрагмента оказались спорными и почему
+вы остановились на своём ответе.
+
+Ветка, коммит и Pull Request делаются кнопками в VS Code:
+[ветки](../docs/git/README.md#5-ветки) ·
+[коммиты](../docs/git/README.md#3-изменения-и-коммиты) ·
+[публикация и Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
 
 ## Чек-лист перед Pull Request
 
