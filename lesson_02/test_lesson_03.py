@@ -7,7 +7,7 @@
 
 Запуск из корня репозитория:
 
-    pytest course-materials/complexity/test_lesson_03.py -q
+    pytest lesson_02/test_lesson_03.py -q
 
 Каждый фрагмент — отдельная строка отчёта, поэтому видно не «12 ошибок»,
 а какие именно оценки не сошлись.

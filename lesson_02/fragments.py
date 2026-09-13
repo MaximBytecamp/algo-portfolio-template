@@ -11,10 +11,10 @@
 пришёл в аргументах, в S(n) не входит: он уже существовал до вызова.
 
 Проверка:
-    pytest course-materials/complexity/test_lesson_03.py
+    pytest lesson_02/test_lesson_03.py
 
 Запуск для просмотра результатов:
-    python course-materials/complexity/fragments.py
+    python lesson_02/fragments.py
 """
 
 
