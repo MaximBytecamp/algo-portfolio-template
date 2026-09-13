@@ -14,9 +14,9 @@
 запуском: берёте программы из презентации, запускаете их у себя и смотрите,
 совпали ли реальные числа с моделью.
 
-Отчёт — файл `homework_03.md` в этой папке. По каждому запуску: скриншот,
-что именно измерялось, ваши числа и вывод на одно-три предложения. Сдать
-до начала занятия 5.
+Отчёт пишете в файл `homework_03.md` этой папки: по каждому запуску
+скриншот, что именно измерялось, ваши числа и вывод на одно-три предложения.
+Сдать до начала занятия 5.
 
 Материалы: [презентация занятия](https://algorthimization-course-vvodnoe.vercel.app/op04-algoritmizaciya/lessons/04-zamery-vremeni-i-pamyati/index.html)
 и [архив с программами](https://algorthimization-course-vvodnoe.vercel.app/op04-algoritmizaciya/lessons/04-zamery-vremeni-i-pamyati/algorithm_measurements.zip).
