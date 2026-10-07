@@ -1,4 +1,4 @@
-"""Публичные тесты домашнего задания № 5. Запуск из корня репозитория:
+"""Тесты домашнего задания № 5. Запуск из корня репозитория:
 
     pytest lesson_05 -q
 """
@@ -51,7 +51,7 @@ def score_brute(steps, k, lower, upper):
     ([1, 2, 3, 4, 5], 1, 3, 3, 0),
     ([3, 2], 2, 0, 1, 1),
     ([6, 5, 0, 0], 2, 1, 5, 0),
-], ids=["leetcode_1", "leetcode_2", "leetcode_3"])
+], ids=["example_1", "example_2", "example_3"])
 def test_score_examples(steps, k, lower, upper, expected):
     assert step_score(steps, k, lower, upper) == expected
 
@@ -65,30 +65,19 @@ def test_score_k_is_n():
 
 
 def test_score_bounds_are_inclusive():
-    # Суммы окон ровно 10 и ровно 20 — это ноль очков, а не минус и не плюс.
-    assert step_score([5, 5, 15], 2, 10, 20) == 0
+    # Сумма, равная lower или upper, — ноль очков, а не минус и не плюс.
+    assert step_score([5, 5, 5], 2, 10, 20) == 0, "сумма ровно lower дала минус"
+    assert step_score([10, 10, 10], 2, 0, 20) == 0, "сумма ровно upper дала плюс"
 
 
 def test_score_all_low():
     assert step_score([1, 1, 1, 1, 1], 2, 10, 20) == -4
 
 
-@pytest.mark.parametrize("steps, k", [([1, 2], 0), ([1, 2], -1), ([1, 2], 3), ([], 1)],
-                         ids=["k_zero", "k_negative", "k_over_n", "empty"])
-def test_score_bad_k_raises(steps, k):
-    with pytest.raises(ValueError):
-        step_score(steps, k, 0, 10)
-
-
-def test_score_lower_above_upper_raises():
-    with pytest.raises(ValueError):
-        step_score([1, 2, 3], 2, 10, 5)
-
-
 def test_score_does_not_change_input():
     steps = [7, 1, 4, 2]
     step_score(steps, 2, 3, 6)
-    assert steps == [7, 1, 4, 2]
+    assert steps == [7, 1, 4, 2], "функция изменила список steps"
 
 
 def test_score_matches_brute_force():
@@ -123,7 +112,7 @@ def decrypt_brute(code, k):
     ([5, 7, 1, 4], 3, [12, 10, 16, 13]),
     ([1, 2, 3, 4], 0, [0, 0, 0, 0]),
     ([2, 4, 9, 3], -2, [12, 5, 6, 13]),
-], ids=["leetcode_1", "leetcode_2", "leetcode_3"])
+], ids=["example_1", "example_2", "example_3"])
 def test_decrypt_examples(code, k, expected):
     assert decrypt(code, k) == expected
 
@@ -146,17 +135,10 @@ def test_decrypt_widest_window():
     assert decrypt([1, 2, 3, 4], -3) == [9, 8, 7, 6]
 
 
-@pytest.mark.parametrize("code, k", [([], 0), ([1, 2, 3], 3), ([1, 2, 3], -3), ([5], 1)],
-                         ids=["empty", "k_equals_n", "minus_k_equals_n", "one_number_k_one"])
-def test_decrypt_bad_input_raises(code, k):
-    with pytest.raises(ValueError):
-        decrypt(code, k)
-
-
 def test_decrypt_returns_new_list():
     code = [5, 7, 1, 4]
     result = decrypt(code, 2)
-    assert code == [5, 7, 1, 4], "исходный список изменился"
+    assert code == [5, 7, 1, 4], "функция изменила список code"
     assert result is not code
 
 

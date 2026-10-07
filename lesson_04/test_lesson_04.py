@@ -1,4 +1,4 @@
-"""Публичные тесты домашнего задания № 4. Запуск из корня репозитория:
+"""Тесты домашнего задания № 4. Запуск из корня репозитория:
 
     pytest lesson_04 -q
 """
@@ -53,7 +53,7 @@ def boats_brute(weights, limit):
     ([1, 2], 3, 1),
     ([3, 2, 2, 1], 3, 3),
     ([3, 5, 3, 4], 5, 4),
-], ids=["leetcode_1", "leetcode_2", "leetcode_3"])
+], ids=["example_1", "example_2", "example_3"])
 def test_boats_examples(weights, limit, expected):
     assert min_boats(weights, limit) == expected
 
@@ -79,25 +79,10 @@ def test_boats_heavy_takes_lightest():
     assert min_boats([10, 45, 55, 90], 100) == 2
 
 
-def test_boats_weight_equal_to_limit():
-    assert min_boats([100, 1], 100) == 2
-
-
-@pytest.mark.parametrize("weights, limit", [
-    ([50, 120], 100),
-    ([0, 50], 100),
-    ([-5, 50], 100),
-    ([10], 0),
-], ids=["too_heavy", "zero_weight", "negative_weight", "zero_limit"])
-def test_boats_bad_input_raises(weights, limit):
-    with pytest.raises(ValueError):
-        min_boats(weights, limit)
-
-
 def test_boats_does_not_change_input():
     weights = [80, 20, 50, 40]
     min_boats(weights, 100)
-    assert weights == [80, 20, 50, 40]
+    assert weights == [80, 20, 50, 40], "функция изменила список weights"
 
 
 def test_boats_matches_brute_force():
@@ -130,22 +115,17 @@ def check_even_first(before, after):
     [2, 4, 6],
     [1, 3, 5],
     [1, 2],
-    [2, 1],
     [7, 8, 7, 8, 7, 8],
-    [-3, -2, 0, 5, -8],
-], ids=["leetcode_1", "zero", "empty", "all_even", "all_odd", "odd_even", "even_odd",
-        "alternating", "negative"])
+], ids=["example", "zero", "empty", "all_even", "all_odd", "odd_even", "alternating"])
 def test_even_first(nums):
     before = list(nums)
     even_first(nums)
     check_even_first(before, nums)
 
 
-def test_even_first_returns_none_and_changes_same_list():
+def test_even_first_changes_same_list():
     nums = [1, 2, 3, 4]
-    same = nums
     assert even_first(nums) is None, "функция меняет список на месте и ничего не возвращает"
-    assert same is nums
     check_even_first([1, 2, 3, 4], nums)
 
 

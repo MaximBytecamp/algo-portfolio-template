@@ -16,7 +16,7 @@ def step_score(steps, k, lower, upper):
     сумма шагов меньше lower — минус одно очко, больше upper — плюс одно очко,
     от lower до upper включительно — ноль. Вернуть сумму очков по всем окнам.
 
-    1 <= k <= len(steps), иначе ValueError. lower > upper — ValueError.
+    1 <= k <= len(steps), lower <= upper.
     Список steps не меняется. Время O(n).
     Пример: step_score([6, 5, 0, 0], 2, 1, 5) == 0.
     """
@@ -33,7 +33,7 @@ def decrypt(code, k):
       k == 0 — нулём.
     Вернуть новый список, code не меняется.
 
-    Пустой code — ValueError. |k| >= len(code) — ValueError.
+    В code хотя бы одно число, |k| < len(code).
     Время O(n), память O(1) кроме ответа.
     Пример: decrypt([5, 7, 1, 4], 3) == [12, 10, 16, 13].
     """
