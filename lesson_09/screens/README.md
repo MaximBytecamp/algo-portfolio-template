@@ -4,4 +4,4 @@
 
 | Файл | Что на кадре |
 |---|---|
-| `01-tests.png` | VS Code: открыт `counterexamples_09.py`, в терминале `4 passed` |
+| `01-tests.png` | терминал: `4 passed` после `pytest lesson_09 -q` и вывод `python lesson_09/race_09.py` |
