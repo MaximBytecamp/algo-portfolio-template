@@ -17,3 +17,4 @@
 | [`zanyatie-07-massiv`](zanyatie-07-massiv/) | Массив: индексы, проходы, границы | стартовые наборы на Python и C# |
 | [`modul-08-dva-ukazatelya`](modul-08-dva-ukazatelya/) | Два указателя | стартовый набор, лист ДЗ |
 | [`modul-09-okno`](modul-09-okno/) | Скользящее окно | стартовый набор, лист ДЗ |
+| [`praktikum-razbor-sobesedovaniy`](praktikum-razbor-sobesedovaniy/) | Практикум: разбор записи собеседования | три варианта видео и бланки отчёта, заполняются по ходу просмотра |
