@@ -64,14 +64,14 @@ LeetCode 1652. `decrypt(code, k)`: числа записаны по кругу, 
 
 | Файл | Где | Содержание |
 |---|---|---|
-| `solution_05.py` | `lesson_05/` | две функции |
-| `homework_05.md` | `lesson_05/` | заполненный бланк |
-| `screens/01-tests.png` | `lesson_05/screens/` | код и `20 passed` в терминале |
+| `solution_05.py` | `practice/05-fixed-sliding-window/` | две функции |
+| `homework_05.md` | `practice/05-fixed-sliding-window/` | заполненный бланк |
+| `screens/01-tests.png` | `practice/05-fixed-sliding-window/screens/` | код и `20 passed` в терминале |
 
 Тесты не меняйте. Работа уходит в ветку `hw-05` и дальше через запрос
 на слияние в вашу `main`; кнопки в VS Code разобраны в
-[ветках](../docs/git/README.md#5-ветки) и
-[публикации Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
+[ветках](../../docs/git/README.md#5-ветки) и
+[публикации Pull Request](../../docs/git/README.md#6-ветки-на-github-и-pull-request).
 
 ## Как оценивается
 

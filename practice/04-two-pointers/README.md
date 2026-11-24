@@ -60,14 +60,14 @@ LeetCode 905. `even_first(nums)`: переставить числа на мес�
 
 | Файл | Где | Содержание |
 |---|---|---|
-| `solution_04.py` | `lesson_04/` | две функции |
-| `homework_04.md` | `lesson_04/` | заполненный бланк |
-| `screens/01-tests.png` | `lesson_04/screens/` | код и `22 passed` в терминале |
+| `solution_04.py` | `practice/04-two-pointers/` | две функции |
+| `homework_04.md` | `practice/04-two-pointers/` | заполненный бланк |
+| `screens/01-tests.png` | `practice/04-two-pointers/screens/` | код и `22 passed` в терминале |
 
 Тесты не меняйте. Работа уходит в ветку `hw-04` и дальше через запрос
 на слияние в вашу `main`; кнопки в VS Code разобраны в
-[ветках](../docs/git/README.md#5-ветки) и
-[публикации Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
+[ветках](../../docs/git/README.md#5-ветки) и
+[публикации Pull Request](../../docs/git/README.md#6-ветки-на-github-и-pull-request).
 
 ## Как оценивается
 

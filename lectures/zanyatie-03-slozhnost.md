@@ -5,7 +5,7 @@
 **Файлы занятия:** [materials/zanyatie-03-slozhnost](../materials/zanyatie-03-slozhnost/) —
 счётчик операций `opcount.py`, практика `turnstiles.py`, шаблон заметки о сложности.
 
-**Задание в репозитории:** [`lesson_02`](../lesson_02/README.md) — разметка
+**Задание в репозитории:** [`lesson_02`](../homework/02-complexity/README.md) — разметка
 двенадцати фрагментов, ограничения, приёмка.
 
 ## Содержание лекции
@@ -87,7 +87,7 @@ c · f(n) для некоторой константы c. Это верхняя 
 
 ## Что вошло в портфолио
 
-- Задание 2 ([`lesson_02`](../lesson_02/README.md)): `answers.py`,
+- Задание 2 ([`lesson_02`](../homework/02-complexity/README.md)): `answers.py`,
   `limits.md`, `acceptance.md`.
 - Формулировка сложности «время — память — худший случай» используется
   в заметке к каждому следующему решению.

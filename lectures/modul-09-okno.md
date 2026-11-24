@@ -5,7 +5,7 @@
 **Файлы занятия:** [materials/modul-09-okno](../materials/modul-09-okno/) —
 стартовый набор `lesson_09`, лист домашнего задания в PDF.
 
-**Задание в репозитории:** [`lesson_05`](../lesson_05/README.md) — скользящее
+**Задание в репозитории:** [`lesson_05`](../practice/05-fixed-sliding-window/README.md) — скользящее
 окно фиксированного размера.
 
 ## Содержание модуля
@@ -96,7 +96,7 @@ k = n/2 — вчетверо. Сдвиг — `O(n)` при любом k. Коп�
 
 ## Что вошло в портфолио
 
-- Задание 5 ([`lesson_05`](../lesson_05/README.md)): `solution_05.py`,
+- Задание 5 ([`lesson_05`](../practice/05-fixed-sliding-window/README.md)): `solution_05.py`,
   бланк, скриншот тестов.
 
 ## Документация

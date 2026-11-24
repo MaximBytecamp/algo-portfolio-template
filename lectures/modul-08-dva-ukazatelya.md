@@ -5,7 +5,7 @@
 **Файлы занятия:** [materials/modul-08-dva-ukazatelya](../materials/modul-08-dva-ukazatelya/) —
 стартовый набор `lesson_08`, лист домашнего задания в PDF.
 
-**Задание в репозитории:** [`lesson_04`](../lesson_04/README.md) — две задачи
+**Задание в репозитории:** [`lesson_04`](../practice/04-two-pointers/README.md) — две задачи
 на изученные приёмы.
 
 ## Содержание модуля
@@ -106,7 +106,7 @@ return w
 
 ## Что вошло в портфолио
 
-- Задание 4 ([`lesson_04`](../lesson_04/README.md)): `solution_04.py`,
+- Задание 4 ([`lesson_04`](../practice/04-two-pointers/README.md)): `solution_04.py`,
   бланк, скриншот тестов.
 
 ## Документация

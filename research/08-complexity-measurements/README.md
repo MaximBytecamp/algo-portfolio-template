@@ -40,17 +40,17 @@
 4. Запустить замер. Он идёт 5–30 секунд, в зависимости от компьютера:
 
    ```text
-   python lesson_08/measure_08.py
+   python research/08-complexity-measurements/measure_08.py
    ```
 
    Программа печатает таблицу и сохраняет `results_08.csv` и `results_08_k.csv`.
 5. Дописать графики 2 и 3 в `plot_08.py` и построить все три:
 
    ```text
-   python lesson_08/plot_08.py
+   python research/08-complexity-measurements/plot_08.py
    ```
 
-   Картинки ложатся в `lesson_08/screens/` поверх заглушек.
+   Картинки ложатся в `research/08-complexity-measurements/screens/` поверх заглушек.
 6. Заполнить остальную часть отчёта.
 
 Во время замера закройте тяжёлые программы и не трогайте компьютер: фоновая
@@ -72,16 +72,16 @@
 
 | Файл | Где | Содержание |
 |---|---|---|
-| `measure_08.py`, `plot_08.py` | `lesson_08/` | ваш код |
-| `results_08.csv`, `results_08_k.csv` | `lesson_08/` | ваши замеры |
-| `homework_08.md` | `lesson_08/` | отчёт |
-| `screens/01-lineinyi.png`, `02-log-log.png`, `03-ot-k.png` | `lesson_08/screens/` | графики из `plot_08.py` |
-| `screens/04-terminal.png` | `lesson_08/screens/` | кадр: вывод замера и `12 passed` |
+| `measure_08.py`, `plot_08.py` | `research/08-complexity-measurements/` | ваш код |
+| `results_08.csv`, `results_08_k.csv` | `research/08-complexity-measurements/` | ваши замеры |
+| `homework_08.md` | `research/08-complexity-measurements/` | отчёт |
+| `screens/01-lineinyi.png`, `02-log-log.png`, `03-ot-k.png` | `research/08-complexity-measurements/screens/` | графики из `plot_08.py` |
+| `screens/04-terminal.png` | `research/08-complexity-measurements/screens/` | кадр: вывод замера и `12 passed` |
 
 Тесты и `algorithms_08.py` не меняйте. Работа уходит в ветку `hw-08` и дальше
 через запрос на слияние в вашу `main`; кнопки в VS Code разобраны в
-[ветках](../docs/git/README.md#5-ветки) и
-[публикации Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
+[ветках](../../docs/git/README.md#5-ветки) и
+[публикации Pull Request](../../docs/git/README.md#6-ветки-на-github-и-pull-request).
 
 ## Как оценивается
 

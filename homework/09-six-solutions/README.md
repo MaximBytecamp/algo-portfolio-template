@@ -40,7 +40,7 @@
 4. **Запустить гонку** и сравнить секунды со своей таблицей:
 
    ```text
-   python lesson_09/race_09.py
+   python homework/09-six-solutions/race_09.py
    ```
 
    Сделать кадр: в терминале `4 passed` и вывод гонки.
@@ -55,14 +55,14 @@
 
 | Файл | Где | Содержание |
 |---|---|---|
-| `homework_09.md` | `lesson_09/` | бланк |
-| `counterexamples_09.py` | `lesson_09/` | два контрпримера |
-| `screens/01-tests.png` | `lesson_09/screens/` | терминал: `4 passed` и вывод `race_09.py` |
+| `homework_09.md` | `homework/09-six-solutions/` | бланк |
+| `counterexamples_09.py` | `homework/09-six-solutions/` | два контрпримера |
+| `screens/01-tests.png` | `homework/09-six-solutions/screens/` | терминал: `4 passed` и вывод `race_09.py` |
 
 Не меняйте тесты и `solutions_09.py`. Работа уходит в ветку `hw-09` и дальше
 через запрос на слияние в вашу `main`; кнопки в VS Code разобраны в
-[ветках](../docs/git/README.md#5-ветки) и
-[публикации Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
+[ветках](../../docs/git/README.md#5-ветки) и
+[публикации Pull Request](../../docs/git/README.md#6-ветки-на-github-и-pull-request).
 
 ## Как оценивается
 

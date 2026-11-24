@@ -4,4 +4,4 @@
 
 | Файл | Что на кадре |
 |---|---|
-| `01-hash-object.png` | терминал: `git hash-object --no-filters README.md` и `python lesson_07/git_hash_07.py README.md` печатают одинаковый хеш |
+| `01-hash-object.png` | терминал: `git hash-object --no-filters README.md` и `python research/07-algorithms-in-systems/git_hash_07.py README.md` печатают одинаковый хеш |

@@ -4,7 +4,7 @@
 
 **Конспект:** [lectures/zanyatie-03-slozhnost.md](../../lectures/zanyatie-03-slozhnost.md)
 
-Фрагменты для разметки, бланк ответов и автопроверка лежат в задании [`lesson_02`](../../lesson_02/README.md).
+Фрагменты для разметки, бланк ответов и автопроверка лежат в задании [`lesson_02`](../../homework/02-complexity/README.md).
 
 | Файл | Что это |
 |---|---|

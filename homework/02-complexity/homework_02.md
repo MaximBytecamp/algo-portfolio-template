@@ -11,7 +11,7 @@
 Проверка:
 
 ```
-pytest lesson_02/test_lesson_03.py -q
+pytest homework/02-complexity/test_lesson_03.py -q
 ```
 
 Сейчас тест показывает `26 failed`, нужно довести до `26 passed`.
@@ -38,6 +38,6 @@ pytest lesson_02/test_lesson_03.py -q
 
 Ветка `hw-02`, Pull Request в свою `main`. В описании — последняя строка
 вывода `pytest`.
-Кнопки в VS Code: [ветки](../docs/git/README.md#5-ветки) ·
-[коммиты](../docs/git/README.md#3-изменения-и-коммиты) ·
-[Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
+Кнопки в VS Code: [ветки](../../docs/git/README.md#5-ветки) ·
+[коммиты](../../docs/git/README.md#3-изменения-и-коммиты) ·
+[Pull Request](../../docs/git/README.md#6-ветки-на-github-и-pull-request).

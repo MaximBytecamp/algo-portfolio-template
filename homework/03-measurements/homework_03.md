@@ -54,9 +54,9 @@
 
 В папке: этот файл и скриншоты в `screens/`, при необходимости код.
 Ветка `hw-03`, Pull Request в свою `main`, затем ссылка на папку преподавателю.
-Кнопки в VS Code: [ветки](../docs/git/README.md#5-ветки) ·
-[коммиты](../docs/git/README.md#3-изменения-и-коммиты) ·
-[Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
+Кнопки в VS Code: [ветки](../../docs/git/README.md#5-ветки) ·
+[коммиты](../../docs/git/README.md#3-изменения-и-коммиты) ·
+[Pull Request](../../docs/git/README.md#6-ветки-на-github-и-pull-request).
 
 Работа принята, если примеры запущены, результаты подтверждены скриншотами
 и к каждому примеру есть вывод.

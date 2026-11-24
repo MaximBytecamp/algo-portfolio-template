@@ -37,7 +37,7 @@
 
    ```text
    git hash-object --no-filters README.md
-   python lesson_07/git_hash_07.py README.md
+   python research/07-algorithms-in-systems/git_hash_07.py README.md
    ```
 
    Обе команды должны напечатать одинаковые 40 символов. Флаг `--no-filters`
@@ -49,14 +49,14 @@
 
 | Файл | Где | Содержание |
 |---|---|---|
-| `homework_07.md` | `lesson_07/` | заполненный бланк |
-| `git_hash_07.py` | `lesson_07/` | функция `blob_hash` |
-| `screens/01-hash-object.png` | `lesson_07/screens/` | терминал: два одинаковых хеша |
+| `homework_07.md` | `research/07-algorithms-in-systems/` | заполненный бланк |
+| `git_hash_07.py` | `research/07-algorithms-in-systems/` | функция `blob_hash` |
+| `screens/01-hash-object.png` | `research/07-algorithms-in-systems/screens/` | терминал: два одинаковых хеша |
 
 Тесты не меняйте. Работа уходит в ветку `hw-07` и дальше через запрос
 на слияние в вашу `main`; кнопки в VS Code разобраны в
-[ветках](../docs/git/README.md#5-ветки) и
-[публикации Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
+[ветках](../../docs/git/README.md#5-ветки) и
+[публикации Pull Request](../../docs/git/README.md#6-ветки-на-github-и-pull-request).
 
 ## Как оценивается
 

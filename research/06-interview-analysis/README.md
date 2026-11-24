@@ -54,13 +54,13 @@
 
 | Файл | Где | Содержание |
 |---|---|---|
-| `homework_06.md` | `lesson_06/` | заполненный бланк |
-| `screens/01-video-a-oshibka.png` | `lesson_06/screens/` | кадр из видео A |
-| `screens/02-video-b-kod.png` | `lesson_06/screens/` | кадр из видео B |
+| `homework_06.md` | `research/06-interview-analysis/` | заполненный бланк |
+| `screens/01-video-a-oshibka.png` | `research/06-interview-analysis/screens/` | кадр из видео A |
+| `screens/02-video-b-kod.png` | `research/06-interview-analysis/screens/` | кадр из видео B |
 
 Работа уходит в ветку `hw-06` и дальше через запрос на слияние в вашу `main`;
-кнопки в VS Code разобраны в [ветках](../docs/git/README.md#5-ветки) и
-[публикации Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
+кнопки в VS Code разобраны в [ветках](../../docs/git/README.md#5-ветки) и
+[публикации Pull Request](../../docs/git/README.md#6-ветки-на-github-и-pull-request).
 
 ## Как оценивается
 

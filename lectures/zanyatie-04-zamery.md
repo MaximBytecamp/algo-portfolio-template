@@ -5,7 +5,7 @@
 **Файлы занятия:** [materials/zanyatie-04-zamery](../materials/zanyatie-04-zamery/) —
 папка `algorithm_measurements` с программами 01–14.
 
-**Задание в репозитории:** [`lesson_03`](../lesson_03/README.md) — отчёт
+**Задание в репозитории:** [`lesson_03`](../homework/03-measurements/README.md) — отчёт
 и скриншоты запусков.
 
 ## Содержание лекции
@@ -62,7 +62,7 @@
 
 ## Что вошло в портфолио
 
-- Задание 3 ([`lesson_03`](../lesson_03/README.md)): `homework_03.md`
+- Задание 3 ([`lesson_03`](../homework/03-measurements/README.md)): `homework_03.md`
   со своими замерами и скриншотами запусков.
 - Методика замера: повторы, медиана, отдельный замер памяти — используется
   в модулях 8 и 9 (`bench.py`).

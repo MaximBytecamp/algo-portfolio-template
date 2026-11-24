@@ -11,12 +11,13 @@ import shutil
 import sys
 
 TEACHER_DIRS = ("lectures/", "materials/", "docs/", ".github/scripts/")
-TEACHER_FILES = (".gitattributes", ".gitignore", "LICENSE", "README.md", "requirements.txt")
+TEACHER_FILES = (".gitattributes", ".gitignore", "LICENSE", "requirements.txt")
+TEACHER_INDEXES = ("homework/README.md", "practice/README.md", "research/README.md", "exams/README.md")
 SKIP_DIRS = (".git/", ".github/workflows/")
 
 
 def is_teacher_file(relative_path):
-    return relative_path.startswith(TEACHER_DIRS) or relative_path in TEACHER_FILES
+    return relative_path.startswith(TEACHER_DIRS) or relative_path in TEACHER_FILES + TEACHER_INDEXES
 
 
 def template_files(root):

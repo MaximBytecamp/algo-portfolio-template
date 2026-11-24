@@ -79,17 +79,17 @@ put a 1, put b 2, put c 3, get a, put d 4, get b, get c, put e 5, get a, get d
 
 | Файл | Где | Содержание |
 |---|---|---|
-| `homework_10.md` | `lesson_10/` | бланк |
-| `screens/01-ukazateli.png` | `lesson_10/screens/` | фото листа: задача 1 |
-| `screens/02-okno.png` | `lesson_10/screens/` | фото листа: задача 2 |
+| `homework_10.md` | `homework/10-paper-tracing/` | бланк |
+| `screens/01-ukazateli.png` | `homework/10-paper-tracing/screens/` | фото листа: задача 1 |
+| `screens/02-okno.png` | `homework/10-paper-tracing/screens/` | фото листа: задача 2 |
 
 Фото с телефона подойдёт. Сохраните его в PNG под тем же именем, что
 у заглушки. Если телефон даёт JPG, поменяйте в бланке `.png` на `.jpg`
 и удалите заглушку.
 
 Работа уходит в ветку `hw-10` и дальше через запрос на слияние в вашу `main`;
-кнопки в VS Code разобраны в [ветках](../docs/git/README.md#5-ветки) и
-[публикации Pull Request](../docs/git/README.md#6-ветки-на-github-и-pull-request).
+кнопки в VS Code разобраны в [ветках](../../docs/git/README.md#5-ветки) и
+[публикации Pull Request](../../docs/git/README.md#6-ветки-на-github-и-pull-request).
 
 ## Как оценивается
 
