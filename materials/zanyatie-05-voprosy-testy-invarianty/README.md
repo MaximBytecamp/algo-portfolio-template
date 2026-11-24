@@ -10,4 +10,3 @@
 | [`bank-voprosov.md`](bank-voprosov.md) | 33 уточняющих вопроса в пяти группах и что меняется от ответа |
 | [`praktikum/`](praktikum/) | две задачи по десять решений, бланк, проверка `test_variantov.py`, замер `zamer.py` |
 | [`praktikum-5-7.pdf`](praktikum-5-7.pdf) | печатный бланк практикума и листинг всех двадцати вариантов |
-| [`12-algoritmicheskih-issledovaniy/`](12-algoritmicheskih-issledovaniy/) | 12 Markdown-бланков: варианты от ИИ, замеры, операции, память и выбор алгоритма |
