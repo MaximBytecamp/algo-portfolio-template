@@ -1,6 +1,6 @@
 """Тесты домашнего задания № 4. Запуск из корня репозитория:
 
-    pytest lesson_04 -q
+    pytest practice/04-two-pointers -q
 """
 
 import random

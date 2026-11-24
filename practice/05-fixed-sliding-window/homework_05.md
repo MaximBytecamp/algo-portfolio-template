@@ -31,7 +31,7 @@
 
 ## 3. Проверка
 
-Команда `pytest lesson_05 -q` показала: `___ passed`.
+Команда `pytest practice/05-fixed-sliding-window -q` показала: `___ passed`.
 
 Скриншот: вставьте строку `![Код и 20 passed в терминале](screens/01-tests.png)`
 

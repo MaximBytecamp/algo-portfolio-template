@@ -31,7 +31,7 @@
 
 ## 3. Проверка
 
-Команда `pytest lesson_04 -q` показала: `___ passed`.
+Команда `pytest practice/04-two-pointers -q` показала: `___ passed`.
 
 Скриншот: вставьте строку `![Код и 22 passed в терминале](screens/01-tests.png)`
 

@@ -1,6 +1,6 @@
 """Тесты домашнего задания № 5. Запуск из корня репозитория:
 
-    pytest lesson_05 -q
+    pytest practice/05-fixed-sliding-window -q
 """
 
 import random

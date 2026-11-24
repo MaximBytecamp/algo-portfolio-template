@@ -2,7 +2,7 @@
 
 Запуск из корня репозитория, после measure_08.py:
 
-    python lesson_08/plot_08.py
+    python research/08-complexity-measurements/plot_08.py
 
 Картинки сохраняются в lesson_08/screens/ поверх заглушек.
 График 1 уже готов. Графики 2 и 3 постройте по его образцу.

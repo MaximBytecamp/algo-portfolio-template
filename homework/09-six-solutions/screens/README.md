@@ -4,4 +4,4 @@
 
 | Файл | Что на кадре |
 |---|---|
-| `01-tests.png` | терминал: `4 passed` после `pytest lesson_09 -q` и вывод `python homework/09-six-solutions/race_09.py` |
+| `01-tests.png` | терминал: `4 passed` после `pytest homework/09-six-solutions -q` и вывод `python homework/09-six-solutions/race_09.py` |

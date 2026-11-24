@@ -1,6 +1,6 @@
 """Тесты задания 7. Запуск из корня репозитория:
 
-    pytest lesson_07 -q
+    pytest research/07-algorithms-in-systems -q
 
 Ожидаемые хеши получены командой `git hash-object --no-filters`.
 """

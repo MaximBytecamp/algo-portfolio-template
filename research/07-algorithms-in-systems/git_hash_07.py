@@ -2,7 +2,7 @@
 
 Запуск из корня репозитория:
 
-    python lesson_07/git_hash_07.py README.md
+    python research/07-algorithms-in-systems/git_hash_07.py README.md
 
 Программа печатает тот же хеш, что и `git hash-object --no-filters README.md`.
 """

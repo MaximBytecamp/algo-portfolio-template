@@ -1,6 +1,6 @@
 """Тесты задания 8. Запуск из корня репозитория:
 
-    pytest lesson_08 -q
+    pytest research/08-complexity-measurements -q
 """
 
 from algorithms_08 import (

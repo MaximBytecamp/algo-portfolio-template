@@ -2,7 +2,7 @@
 
 Запуск из корня репозитория:
 
-    python lesson_08/measure_08.py
+    python research/08-complexity-measurements/measure_08.py
 
 Программа печатает таблицу и сохраняет замеры в два файла рядом с собой:
 results_08.csv (время от n) и results_08_k.csv (время от k при постоянном n).
